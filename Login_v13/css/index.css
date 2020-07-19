@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+}
+.limiter {
+    width: 100%;
+    margin: 0 auto;
+}
+.container-login100 {
+    width: 100%;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.modal-title{
+    color: white;
+    font-size: 46px;
+    width: 70%;
+    margin: 38px 0px 0px 38px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.card-subtitle{
+    color: white;
+    margin: 5px 0px 0px 38px;
+    font-size: 18px;
+}
+.document{
+    color: white;
+    margin: 5px 0px 0px 38px;
+    font-size: x-large;
+    width: 62%;
+}
+.container{
+    width: 100%;
+}
+.box{
+    border: 0.5px solid white;
+    width: 80%;
+    min-height: 30vh;
+    position: absolute;
+    z-index: 0.1;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.login100-form-title {
+    width: 100%;
+    font-size: 45px;
+    font-weight: bold;
+    color: #333333;
+    line-height: 1.2;
+    text-align: left;
+    top: 0;
+    position: absolute;
+    margin-top: 20%;
+}
+.wrap-input100 {
+    max-width: 80%;
+    position: relative;
+    border-bottom: 1px solid #dbdbdb;
+}
+.contact100-form-checkbox{
+    position: absolute;
+    text-align: left;
+    bottom: 25%;
+    margin-bottom: 10px;
+}
+.contact100-form-checkbox-login{
+    position: absolute;
+    text-align: right;
+    bottom: 0;
+    right: 10%;
+    margin-bottom: 25px;
+}
+.circle-1{
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 50%;
+    background-color: black;
+    z-index: 0.1;
+}
