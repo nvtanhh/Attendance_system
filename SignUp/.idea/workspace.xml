@@ -11,16 +11,23 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="XSLT Stylesheet" />
+        <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1eqGcGh1oeF1T7wgZIfSUVW5BBJ" />
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\COMPUTER\Desktop\SignUp\images" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -47,6 +54,8 @@
       <workItem from="1595041787850" duration="12747000" />
       <workItem from="1595060996852" duration="5136000" />
       <workItem from="1595107023882" duration="18059000" />
+      <workItem from="1595236383529" duration="9928000" />
+      <workItem from="1595323779015" duration="7643000" />
     </task>
     <servers />
   </component>

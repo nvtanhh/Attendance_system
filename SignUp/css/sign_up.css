@@ -6,10 +6,6 @@
 body{
     overflow: hidden;
 }
-.limiter {
-    width: 100%;
-    margin: 0 auto;
-}
 .container-login100 {
     width: 100%;
     min-height: 100vh;
@@ -23,36 +19,38 @@ body{
 }
 .modal-title{
     color: white;
-    font-size: 46px;
+    font-size: 36px;
     width: 70%;
-    margin: 38px 0px 0px 38px;
+    margin: 5px 0px 0px 20px;
     font-weight: bold;
     letter-spacing: 1px;
 }
+.card-img{
+    color: white;
+    margin: 10px 0px 0px 20px;
+}
+.card-img-bottom{
+    color: white;
+    margin: 15px 0px 0px 20px;
+
+}
 .card-subtitle{
     color: white;
-    margin: 5px 0px 0px 38px;
-    font-size: 18px;
-}
-.document{
-    color: white;
-    margin: 5px 0px 0px 38px;
-    font-size: x-large;
-    width: 62%;
+    margin: 10px 0px 0px 20px;
+    font-size: 16px;
 }
 .container{
     width: 100%;
 }
 .box{
     border: 0.5px solid white;
-    width: 80%;
     min-height: 30vh;
     position: absolute;
     z-index: 0.1;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
     overflow: hidden;
-    border-radius: 5px;
+    border-radius: 7px;
 }
 .login100-form-title {
     width: 100%;
@@ -86,9 +84,52 @@ body{
 .circle-1{
     display: block;
     position: absolute;
-    right: 0;
-    top: 0;
+    right: -5%;
+    top: 10%;
     border-radius: 50%;
-    background-color: black;
-    z-index: 0.1;
+    background-color: #8B16FF;
+    z-index: 1000;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+    height: 90px;
+    width: 90px;
+}
+.circle-2{
+    width: 40px;
+    height: 40px;
+    display: block;
+    position: absolute;
+    right: 25%;
+    top: 14%;
+    border-radius: 50%;
+    background-color: #8B16FF;
+    z-index: 1000;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+.circle-3{
+    display: block;
+    position: absolute;
+    left: -5%;
+    bottom: 10%;
+    border-radius: 50%;
+    background-color: #8B16FF;
+    z-index: 1000;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+    height: 90px;
+    width: 90px;
+}
+.circle-4{
+    width: 40px;
+    height: 40px;
+    display: block;
+    position: absolute;
+    left: 25%;
+    bottom: 13%;
+    border-radius: 50%;
+    background-color: #8B16FF;
+    z-index: 1000;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+.icon{
+    color: #8B16FF;
+    padding-right: 8px;
 }
