@@ -146,7 +146,7 @@ iframe {
 .txt1 {
   font-family: Poppins-Regular;
   font-size: 15px;
-  color: #999999;
+  color: #000000;
   line-height: 1.4;
 }
 
@@ -178,7 +178,7 @@ iframe {
 }
 
 .container-login100 {
-  width: 100%;
+  width: 101%;
   min-height: 100vh;
   display: -webkit-box;
   display: -webkit-flex;
@@ -210,14 +210,14 @@ iframe {
   background-size: cover;
   width: calc(100% - 520px);
   position: relative;
-  z-index: 1;
+  z-index: 100;
 }
 
 .login100-more::before {
   content: "";
   display: block;
   position: absolute;
-  z-index: -1;
+  z-index: 100;
   width: 100%;
   height: 100%;
   top: 0;
@@ -254,8 +254,6 @@ iframe {
   text-align: left;
   top: 0;
 }
-
-
 
 /*------------------------------------------------------------------
 [ Input ]*/
@@ -543,6 +541,9 @@ iframe {
     padding-left: 15px;
     padding-right: 15px;
   }
+    .container-login100{
+        overflow: auto;
+    }
   @media only screen and (max-width: 600px) {
     .modal-title{
       font-size: 30px;
@@ -554,6 +555,9 @@ iframe {
     .modal-title{
       font-size: 80px;
     }
+      .container-login100{
+          overflow: auto;
+      }
   }
 
   /* Medium devices (landscape tablets, 768px and up) */
@@ -562,6 +566,23 @@ iframe {
       padding-left: 15px;
       padding-right: 15px;
     }
+      .modal-title{
+          font-size: 30px;
+      }
+      .container-login100{
+          overflow: auto;
+      }
+  } @media only screen and (max-width: 768px) {
+    .wrap-login100 {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+      .modal-title{
+          font-size: 30px;
+      }
+      .container-login100{
+          overflow: auto;
+      }
   }
 
   /* Large devices (laptops/desktops, 992px and up) */
@@ -570,6 +591,12 @@ iframe {
       padding-left: 15px;
       padding-right: 15px;
     }
+      .modal-title{
+          font-size: 30px;
+      }
+      .container-login100{
+          overflow: auto;
+      }
   }
 
   /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -578,5 +605,11 @@ iframe {
       padding-left: 15px;
       padding-right: 15px;
     }
+      .modal-title{
+          font-size: 30px;
+      }
+      .container-login100{
+          overflow: auto;
+      }
   }
 }

@@ -21,11 +21,17 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Attendance/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\COMPUTER\Desktop\Attendance\images" />
+      <recent name="C:\Users\COMPUTER\Desktop\Attendance" />
+      <recent name="C:\Users\COMPUTER\Desktop\SignUp\images" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\COMPUTER\Desktop\Attendance\images" />
       <recent name="C:\Users\COMPUTER\Desktop\SignUp\images" />
     </key>
   </component>
@@ -56,6 +62,8 @@
       <workItem from="1595107023882" duration="18059000" />
       <workItem from="1595236383529" duration="9928000" />
       <workItem from="1595323779015" duration="7643000" />
+      <workItem from="1595468742777" duration="19398000" />
+      <workItem from="1595583019378" duration="14205000" />
     </task>
     <servers />
   </component>
