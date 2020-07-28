@@ -67,22 +67,22 @@ body {
 /*==================================================================
 [ title ]*/
 .login100-form-title {
-    width: 100%;
-    font-size: 45px;
+    width: 50%;
+    font-size: 40px;
     font-weight: bold;
     color: #333333;
     line-height: 1.2;
     text-align: left;
     top: 0;
     position: absolute;
-    margin-top: 20%;
+    margin-top: 15%;
 }
 
 /*==================================================================
 [ Form ]*/
 .box {
     border: 0.5px solid white;
-    min-height: 20vh;
+    min-height: 15vh;
     position: absolute;
     z-index: 0.1;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
@@ -156,9 +156,73 @@ body {
 /*==================================================================
 [ link sign up ]*/
 .contact100-form-checkbox-login {
+    width: 45%;
     position: absolute;
     text-align: right;
     bottom: 0;
     right: 10%;
     margin-bottom: 9%;
+}
+
+.container-login100-form-btn {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrap-login100-form-btn {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    bottom: 32%;
+    margin-right: 55px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.login100-form-bgbtn {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 300%;
+    background: #8B16FF;
+    background: -webkit-linear-gradient(top, #8B16FF, #6715CA);
+    background: -o-linear-gradient(top, #8B16FF, #6715CA);
+    background: -moz-linear-gradient(top, #8B16FF, #6715CA);
+    background: linear-gradient(top, #8B16FF, #6715CA);
+    bottom: -100%;
+    left: 0;
+
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.login100-form-btn {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    min-width: 120px;
+    height: 50px;
+    font-family: Poppins-Medium;
+    font-size: 14px;
+    color: #fff;
+    line-height: 1.2;
+}
+
+.wrap-login100-form-btn .login100-form-btn:hover {
+    background-color: #880ee6;
 }

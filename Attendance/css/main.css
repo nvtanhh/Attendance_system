@@ -439,8 +439,7 @@ iframe {
 }
 
 .wrap-login100-form-btn:hover .login100-form-bgbtn {
-  bottom: 0;
-
+  /*bottom: 0;*/
 }
 
 

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Login</title>
+    <title>Forgot password</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--===============================================================================================-->
@@ -28,7 +28,7 @@
 
     <link rel="stylesheet" type="text/css" href="css/util.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/forgot.css">
     <!--===============================================================================================-->
     <script src="https://use.fontawesome.com/f6155034f8.js"></script>
 
@@ -56,53 +56,34 @@
         </div>
         <div class="wrap-login100 p-t-72 p-b-80 col-4 col-xm-3 col-sm-4 col-md-4 col-lg-4">
             <div class="title">
-					<span class="login100-form-title p-l-70 p-r-50 p-b-89">
-						Login
+					<span class="login100-form-title p-l-50 p-r-50 p-b-89">
+						Forgot Password
 					</span>
             </div>
             <div class="circle-1 p-t-90 row"></div>
             <div class="circle-2 p-t-40 row"></div>
+
+            <div class="text-dark d-flex col-md-9 pos-absolute">
+                <div class="row">
+                        <span  class="m-b-180" style="font-size: 13px">Enter your email, and we’ll send you instructions on
+                        how to reset your password.</span>
+                </div>
+            </div>
             <div class="box col-md-9 row m-auto">
                 <form class="login100-form validate-form">
                     <div class="wrap-input100 validate-input" data-validate="Username is required">
-                        <span class="icon"><i class="fa fa-user"></i></span>
-                        <input class="input100" type="text" name="username" placeholder="Username">
+                        <span class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+                        <input class="input100" type="text" name="username" placeholder="Your email">
                         <span class="focus-input100 icon"></span>
-                    </div>
-                    <div class="wrap-input100 validate-input" data-validate="Password is required">
-                        <span class="icon"><i class="fa fa-key"></i></span>
-                        <input class="input100" type="text" name="password" placeholder="Password">
-                        <span class="focus-input100"></span>
                     </div>
                 </form>
 
-            </div>
-            <div class="col-12 p-t-180">
-                <div class="row">
-                    <div class="contact100-form-checkbox col-6 pl-5 pt-3">
-                        <input class="input-checkbox100 " id="ckb1" type="radio" name="remember-me">
-                        <label class="label-checkbox100" for="ckb1">
-								<span class="txt1">
-									Remember me
-								</span>
-                        </label>
-                    </div>
-                    <div class="contact100-form-checkbox-forgot col-6 text-right pr-5 pt-3">
-                        <label class="label-checkbox100-a" for="ckb1">
-								<span class="txt1">
-									<a href="#" class="txt2 hov1">
-										Forgot password?
-									</a>
-								</span>
-                        </label>
-                    </div>
-                </div>
             </div>
             <div class="container-login100-form-btn">
                 <div class="wrap-login100-form-btn">
                     <div class="login100-form-bgbtn"></div>
                     <button class="login100-form-btn">
-                        Login
+                        SENT ME RESET INSTRUCTIONS
                     </button>
                 </div>
             </div>
@@ -110,9 +91,9 @@
                 <div class="contact100-form-checkbox-login">
                     <label class="label-checkbox100-a" for="ckb1">
 								<span class="txt1">
-									Don't have an account?
-									<a href="sign_up.html" class="txt2 hov1">
-										Sign up
+									Never mind, send me back to
+									<a href="login.html" class="txt2 hov1">
+										the login page
 									</a>
 								</span>
                     </label>
