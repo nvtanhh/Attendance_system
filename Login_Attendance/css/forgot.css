@@ -2,15 +2,15 @@
     display: flex;
     text-align: center;
     justify-content: center;
-    margin-top: 12%;
-    min-height: 21vh;
+    margin-top: 5%;
+    min-height: 16vh;
     width: 80%;
     border-radius: 7px;
     border: 0.5px solid white;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
 }
 
-.title span {
+.title {
     width: 80%;
 }
 
@@ -18,9 +18,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50%;
+    width: 100%;
     height: 40px;
     background-color: #880ee6;
     border-radius: 25px;
     cursor: pointer;
+    margin-left: -50px;
+}
+.txt1{
+    width: 50%;
+
 }

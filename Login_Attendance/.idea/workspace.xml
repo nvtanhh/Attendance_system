@@ -11,8 +11,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -20,19 +20,20 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Fotgot" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Login_Attendance\Fotgot" />
-      <recent name="D:\Login_Attendance\Sign up" />
-      <recent name="D:\Login_Attendance\Login\img" />
-      <recent name="D:\Login_Attendance\Login" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Login_Attendance\img" />
       <recent name="D:\Login_Attendance\css" />
       <recent name="D:\Login_Attendance" />
+      <recent name="D:\Login_Attendance\Fotgot" />
+      <recent name="D:\Login_Attendance\Sign up" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Login_Attendance" />
+      <recent name="D:\Login_Attendance\css" />
       <recent name="D:\Login_Attendance\Login\img" />
     </key>
   </component>
@@ -61,7 +62,7 @@
       <workItem from="1595496298756" duration="12086000" />
       <workItem from="1595515040330" duration="1327000" />
       <workItem from="1595585960003" duration="513000" />
-      <workItem from="1596011489480" duration="15641000" />
+      <workItem from="1596011489480" duration="25603000" />
     </task>
     <servers />
   </component>

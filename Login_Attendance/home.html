@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+          integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <!--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
+    <!--    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>-->
+    <!--    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>-->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="page col-12">
+            <div class="img col-12 d-flex">
+                <div class="pt-3 pl-5 col-6"><img src="img/logo.png" class="logo w-25"></div>
+                <div class="col-4"></div>
+                <div class="pt-4 pr-5 col-2 btn"><a><img src="img/Group%202.png"
+                                                         class="icon w-25 float-right responsive"></a>
+                </div>
+            </div>
+            <div class="card card-verify mx-auto" style="width:300px">
+                <img class="card-img-top" src="img/empty_states_comments.png" alt="Card image" style="width:100%">
+                <div class="card-body">
+                    <p class="card-text-1 text-center text-dark">Don't see your existing classes?</p>
+                    <p class="card-text-1 text-center text-dark" role="button" onclick="openForm()"><a
+                            style="color: #8B16FF">CREATE NEW CLASS?</a></p>
+                </div>
+            </div>
+            <div class="form-popup" id="myForm">
+                <form action="" class="form-container">
+                    <h3>Create class</h3>
+                    <div class="form-group-input d-flex ">
+                        <input type="text" class="form-control" id="c-name" placeholder="Class name" name="c-name"
+                               required>
+                    </div>
+                    <div class="form-group-input d-flex">
+                        <input type="text" class="form-control" id="subject" placeholder="Subject"
+                               name="subject"
+                               required>
+                    </div>
+                    <div class="form-group-input d-flex">
+                        <input type="text" class="form-control" id="room" placeholder="Room"
+                               name="room"
+                               required>
+                    </div>
+
+                    <div class="col-12 d-flex float-right bg-white">
+                        <button type="button" class="btn cancel" onclick="closeForm()">Cancel</button>
+                        <button type="submit" class="btn btn-light">Create</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<script>
+    function openForm() {
+        document.getElementById("myForm").style.display = "flex";
+    }
+
+    function closeForm() {
+        document.getElementById("myForm").style.display = "none";
+    }
+</script>
+</body>
+</html>
