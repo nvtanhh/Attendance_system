@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2a88f3a9-8476-4910-9df7-d5242adf9fe4" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="XSLT Stylesheet" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1eqGcGh1oeF1T7wgZIfSUVW5BBJ" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="D:/Login_Attendance" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\COMPUTER\Desktop\Attendance\images" />
+      <recent name="C:\Users\COMPUTER\Desktop\Attendance" />
+      <recent name="C:\Users\COMPUTER\Desktop\SignUp\images" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\COMPUTER\Desktop\Attendance\images" />
+      <recent name="C:\Users\COMPUTER\Desktop\SignUp\images" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2a88f3a9-8476-4910-9df7-d5242adf9fe4" name="Default Changelist" comment="" />
+      <created>1595041786570</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595041786570</updated>
+      <workItem from="1595041787850" duration="12747000" />
+      <workItem from="1595060996852" duration="5136000" />
+      <workItem from="1595107023882" duration="18059000" />
+      <workItem from="1595236383529" duration="9928000" />
+      <workItem from="1595323779015" duration="7643000" />
+      <workItem from="1595468742777" duration="19398000" />
+      <workItem from="1595583019378" duration="14813000" />
+      <workItem from="1595646895129" duration="9695000" />
+      <workItem from="1595810221915" duration="3619000" />
+      <workItem from="1595912782353" duration="5603000" />
+      <workItem from="1596011412246" duration="4959000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
