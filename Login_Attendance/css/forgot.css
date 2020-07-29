@@ -1,0 +1,26 @@
+.form-container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 12%;
+    min-height: 21vh;
+    width: 80%;
+    border-radius: 7px;
+    border: 0.5px solid white;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+.title span {
+    width: 80%;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 40px;
+    background-color: #880ee6;
+    border-radius: 25px;
+    cursor: pointer;
+}
